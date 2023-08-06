@@ -1,0 +1,34 @@
+class fightunit
+{
+   protected int AP = 100;
+   protected int MP = 200;
+   protected int HP = 10;
+}
+
+
+
+
+
+
+class Player:fightunit
+{
+    int EXP = 0;
+    
+
+}
+
+class Enemy : fightunit
+{
+    
+}
+
+namespace _23inheritance
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+
+        }
+    }
+}
